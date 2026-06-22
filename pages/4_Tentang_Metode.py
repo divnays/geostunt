@@ -127,7 +127,7 @@ st.markdown(
 )
 
 render_insight(
-    "Penelitian ini menggunakan <strong>Geographical Random Forest (GRF)</strong> "
+    "Penelitian ini menggunakan <strong>Geographical Random Forest (GRF).</strong> "
     "GRF "
     "membangun sub-model Random Forest lokal di tiap titik observasi, diimplementasikan "
     "melalui package PyGRF."
