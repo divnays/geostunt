@@ -24,7 +24,7 @@ st.markdown(
     Sebuah daerah bisa mengalami stunting tinggi karena kemiskinan, sementara daerah
     lain karena akses pangan hewani yang rendah, atau karena rendahnya tingkat
     pendidikan ibu. Model statistik konvensional biasanya mengasumsikan satu hubungan
-    yang sama berlaku di seluruh wilayah -- asumsi yang tidak realistis untuk negara
+    yang sama berlaku di seluruh wilayah, asumsi yang tidak realistis untuk negara
     seluas dan sebervariasi Indonesia.
     </div>
     """,
@@ -57,7 +57,7 @@ render_insight(
     "<strong>Analogi sederhana:</strong> Bayangkan model regresi biasa seperti dokter "
     "umum yang memberi resep yang sama untuk semua pasien demam. GRF lebih seperti "
     "tim dokter yang masing-masing memeriksa pasien di kecamatannya sendiri, sehingga "
-    "diagnosisnya lebih sesuai dengan kondisi lokal -- meski tetap mengacu pada ilmu "
+    "diagnosisnya lebih sesuai dengan kondisi lokal meski tetap mengacu pada ilmu "
     "kedokteran yang sama."
 )
 
@@ -127,8 +127,8 @@ st.markdown(
 )
 
 render_insight(
-    "Penelitian ini menggunakan <strong>Geographical Random Forest (GRF)</strong>, bukan "
-    "Geographically Weighted Random Forest (GWRF) yang merupakan pendekatan berbeda. GRF "
+    "Penelitian ini menggunakan <strong>Geographical Random Forest (GRF)</strong> "
+    "GRF "
     "membangun sub-model Random Forest lokal di tiap titik observasi, diimplementasikan "
     "melalui package PyGRF."
 )
