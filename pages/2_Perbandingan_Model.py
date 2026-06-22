@@ -18,7 +18,7 @@ render_section_header(
     "Perbandingan Model",
     "Mengapa Geographical Random Forest Dipilih?",
     "Sebelum memilih GRF, dilakukan pengujian bertahap untuk memastikan metode ini "
-    "memang diperlukan -- bukan sekadar tren analisis spasial.",
+    "memang diperlukan.",
 )
 
 # ------------------------------------------------------------ TAHAP 1: UJI ASUMSI
